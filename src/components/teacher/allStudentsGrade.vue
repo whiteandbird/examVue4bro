@@ -7,7 +7,7 @@
       <el-table-column prop="tel" label="联系方式" width="120"></el-table-column>
       <el-table-column  label="查看成绩" width="150">
         <template slot-scope="scope">
-          <el-button @click="checkGrade(scope.row.studentId)" type="primary" size="small">查看成绩</el-button>
+          <el-button @click="checkGrade(scope.row.userId)" type="primary" size="small">查看成绩</el-button>
         </template>
       </el-table-column>
     </el-table>
